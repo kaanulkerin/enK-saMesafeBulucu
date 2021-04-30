@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="530.0" fitWidth="1030.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/harita.png" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="ankara" layoutX="361.0" layoutY="210.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Zonguldak" layoutX="322.0" layoutY="112.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Bartın" layoutX="353.0" layoutY="88.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Kastamonu" layoutX="419.0" layoutY="112.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Sinop" layoutX="483.0" layoutY="88.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Samsun" layoutX="528.0" layoutY="97.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Ordu" layoutX="620.0" layoutY="146.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Giresun" layoutX="662.0" layoutY="155.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Gümüşhane" layoutX="708.0" layoutY="172.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Trabzon" layoutX="749.0" layoutY="129.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Sivas" layoutX="620.0" layoutY="210.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Erzincan" layoutX="741.0" layoutY="202.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Tunceli" layoutX="716.0" layoutY="250.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Tokat" layoutX="553.0" layoutY="181.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Amasya" layoutX="520.0" layoutY="155.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Çorum" layoutX="458.0" layoutY="155.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Yozgat" layoutX="512.0" layoutY="210.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Kayseri" layoutX="536.0" layoutY="283.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Kahramanmaraş" layoutX="593.0" layoutY="329.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Şanlıurfa" layoutX="700.0" layoutY="365.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Rize" layoutX="787.0" layoutY="112.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Nevşehir" layoutX="475.0" layoutY="267.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Kırşehir" layoutX="436.0" layoutY="233.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Kırıkkale" layoutX="419.0" layoutY="190.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Eskişehir" layoutX="296.0" layoutY="219.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Afyonkarahisar" layoutX="247.0" layoutY="292.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Konya" layoutX="353.0" layoutY="301.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Bayburt" layoutX="749.0" layoutY="155.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Erzurum" layoutX="804.0" layoutY="164.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Artvin" layoutX="821.0" layoutY="106.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Ardahan" layoutX="880.0" layoutY="88.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Hakkari" layoutX="992.0" layoutY="329.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="van" layoutX="939.0" layoutY="292.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Ağrı" layoutX="896.0" layoutY="210.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Kars" layoutX="888.0" layoutY="155.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Muş" layoutX="846.0" layoutY="250.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Diyarbakır" layoutX="787.0" layoutY="301.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Bingöl" layoutX="787.0" layoutY="233.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="ığdır" layoutX="931.0" layoutY="172.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Siirt" layoutX="872.0" layoutY="310.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Mardin" layoutX="779.0" layoutY="365.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Şırnak" layoutX="914.0" layoutY="338.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Batman" layoutX="829.0" layoutY="293.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Elazığ" layoutX="724.0" layoutY="283.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Malatya" layoutX="645.0" layoutY="276.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Adıyaman" layoutX="645.0" layoutY="347.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Bitlis" layoutX="864.0" layoutY="275.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Adana" layoutX="512.0" layoutY="374.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Karaman" layoutX="384.0" layoutY="391.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Mersin" layoutX="436.0" layoutY="408.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Çankırı" layoutX="384.0" layoutY="138.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Antalya" layoutX="288.0" layoutY="391.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Isparta" layoutX="264.0" layoutY="319.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Kütahya" layoutX="184.0" layoutY="233.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Bolu" layoutX="330.0" layoutY="138.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="sakarya" layoutX="255.0" layoutY="130.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Tekirdağ" layoutX="75.0" layoutY="121.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Kırklareli" layoutX="92.0" layoutY="56.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Manisa" layoutX="126.0" layoutY="268.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Balıkesir" layoutX="126.0" layoutY="219.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="çanakkale" layoutX="58.0" layoutY="164.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="istanbul" layoutX="184.0" layoutY="112.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Edirne" layoutX="58.0" layoutY="97.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="bursa" layoutX="152.0" layoutY="173.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="İzmir" layoutX="75.0" layoutY="310.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Aydın" layoutX="126.0" layoutY="328.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Muğla" layoutX="134.0" layoutY="383.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Denizli" layoutX="175.0" layoutY="357.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Burdur" layoutX="212.0" layoutY="365.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Uşak" layoutX="167.0" layoutY="292.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Niğde" layoutX="466.0" layoutY="347.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Aksaray" layoutX="411.0" layoutY="311.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Bilecik" layoutX="229.0" layoutY="173.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Düzce" layoutX="288.0" layoutY="139.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Osmaniye" layoutX="544.0" layoutY="374.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Hatay" layoutX="561.0" layoutY="417.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Gaziantep" layoutX="628.0" layoutY="400.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Kilis" layoutX="601.0" layoutY="416.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="yalova" layoutX="167.0" layoutY="148.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="kocaeli" layoutX="221.0" layoutY="129.0" mnemonicParsing="false" visible="false" />
+      <CheckBox fx:id="Karabük" layoutX="361.0" layoutY="106.0" mnemonicParsing="false" visible="false" />
+      <Button fx:id="start" layoutX="432.0" layoutY="563.0" mnemonicParsing="false" onAction="#SehirEkle" prefHeight="35.0" prefWidth="160.0" text="Başlat" visible="false" />
+      <Label fx:id="textbir" layoutX="28.0" layoutY="14.0" text="En Fazla 10 Şehir Seçiniz">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="textiki" layoutX="273.0" layoutY="14.0" text="Kaç şehir seçeceksiniz:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="gönder" layoutX="713.0" layoutY="6.0" mnemonicParsing="false" onAction="#Sehirsayisi" text="Gönder" />
+      <Polyline fx:id="cizgi" fill="#ffffff00" layoutX="221.0" layoutY="129.0" points="" visible="false" />
+      <TextField fx:id="göndermetin" layoutX="503.0" layoutY="6.0" />
+   </children>
+</Pane>
